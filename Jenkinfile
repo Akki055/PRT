@@ -10,7 +10,7 @@ pipeline {
             }
             steps {
                 script {
-                    git 'https://github.com/Akki055/website.git'
+                    git 'https://github.com/Akki055/PRT.git'
                 }
             }
         }
