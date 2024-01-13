@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage("Code"){
             steps{
-                git url: "https://github.com/Akki055/PRT.git", branch: "jenkins"
+                git url: "https://github.com/Akki055/PRT.git"
             }
         }
         stage("Build & Test"){
